@@ -1,0 +1,22 @@
+FORGE
+  remote: http://forge.puppetlabs.com
+  specs:
+    maestrodev/wget (1.2.0)
+    puppetlabs/apt (1.2.0)
+      puppetlabs/stdlib (>= 2.2.1)
+    puppetlabs/gcc (0.0.3)
+    puppetlabs/mysql (0.8.1)
+      puppetlabs/stdlib (>= 2.2.1)
+    puppetlabs/nginx (0.0.1)
+      puppetlabs/stdlib (>= 0.1.6)
+    puppetlabs/stdlib (4.1.0)
+    thomasvandoren/redis (0.0.9)
+      maestrodev/wget (>= 0.0.0)
+      puppetlabs/gcc (>= 0.0.0)
+
+DEPENDENCIES
+  puppetlabs/apt (>= 0)
+  puppetlabs/mysql (>= 0)
+  puppetlabs/nginx (>= 0)
+  thomasvandoren/redis (>= 0)
+
