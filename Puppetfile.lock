@@ -1,6 +1,7 @@
 FORGE
   remote: http://forge.puppetlabs.com
   specs:
+    jgoettsch/mercurial (0.2.0)
     maestrodev/wget (1.2.0)
     puppetlabs/apt (1.2.0)
       puppetlabs/stdlib (>= 2.2.1)
@@ -15,6 +16,7 @@ FORGE
       puppetlabs/gcc (>= 0.0.0)
 
 DEPENDENCIES
+  jgoettsch/mercurial (>= 0)
   puppetlabs/apt (>= 0)
   puppetlabs/mysql (>= 0)
   puppetlabs/nginx (>= 0)

@@ -16,6 +16,8 @@ include apt
 include redis
 include mysql
 
+class { 'mercurial': }
+
 node default {
   class { 'nginx': }
 }
